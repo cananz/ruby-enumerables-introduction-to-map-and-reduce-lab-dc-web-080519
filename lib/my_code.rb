@@ -22,7 +22,7 @@ def map_to_double(source_array)
       mapthree.push(source_array[i] * 2)
       i += 1
     end
-    return maphree
+    return mapthree
 end
 
 def map_to_square(source_array)
