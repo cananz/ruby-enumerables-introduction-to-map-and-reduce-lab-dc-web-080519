@@ -37,7 +37,13 @@ end
 
 #reduce-like
 def reduce_to_total(source_array, starting_point)
-
+  reduceone = starting_point
+   i = 0
+    while i < source_array.length do
+     reduceone += source_array[i]
+      i += 1
+    end
+    return reduceone
 end
 def reduce_to_all_true(source_array)
 
